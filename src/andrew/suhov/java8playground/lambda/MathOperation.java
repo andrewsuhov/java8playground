@@ -3,18 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package andrew.suhov.defaultmethod;
+package andrew.suhov.java8playground.lambda;
 
 /**
  *
  * @author asuhov
  */
-public class DefaultMethodTest
+public interface MathOperation
 {
-    public static void main(String[] args)
-    {
-        Car car = new Car();
-        car.print();
-        Vehicle.blowHorn();
-    }
+    int operation(int a, int b);
 }

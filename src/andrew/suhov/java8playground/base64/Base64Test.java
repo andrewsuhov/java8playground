@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package andrew.suhov.base64;
+package andrew.suhov.java8playground.base64;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Base64;

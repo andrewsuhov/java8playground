@@ -3,16 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package andrew.suhov.defaultmethod;
+package andrew.suhov.java8playground.defaultmethod;
 
 /**
  *
  * @author asuhov
  */
-public interface FourWheeler
+public interface Vehicle
 {
     default void print()
     {
-        System.out.println("I'm a fourwheeler!");
+        System.out.println("I'm a vehicle!");
+    }
+    
+    static void blowHorn()
+    {
+        System.out.println("Blowing horn");
     }
 }

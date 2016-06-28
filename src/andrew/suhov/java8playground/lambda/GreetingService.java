@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package andrew.suhov.lambda;
+package andrew.suhov.java8playground.lambda;
 
 /**
  *
  * @author asuhov
  */
-public interface MathOperation
+public interface GreetingService
 {
-    int operation(int a, int b);
+    void sayMessage(String message);
 }

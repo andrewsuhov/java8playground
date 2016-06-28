@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package andrew.suhov.optionalclass;
+package andrew.suhov.java8playground.optionalclass;
 
 import java.util.Optional;
 

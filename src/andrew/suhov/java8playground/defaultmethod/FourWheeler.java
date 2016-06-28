@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package andrew.suhov.defaultmethod;
+package andrew.suhov.java8playground.defaultmethod;
 
 /**
  *
  * @author asuhov
  */
-public class Car implements Vehicle, FourWheeler
+public interface FourWheeler
 {
-    @Override
-    public void print()
+    default void print()
     {
-        Vehicle.super.print();
-        FourWheeler.super.print();
+        System.out.println("I'm a fourwheeler!");
     }
 }
